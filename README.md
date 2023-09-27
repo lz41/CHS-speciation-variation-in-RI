@@ -11,7 +11,7 @@
 ```
 main_hybridiz_model_parallel(seed,kappa)
 ```
-####### % seed is the seed number you assigned for this run, kappa is the temporal correlation parameter. kappa=0 means no temporal correlation, kappa=0.6 means temporal correlation.
+######## seed is the seed number you assigned for this run, kappa is the temporal correlation parameter. kappa=0 means no temporal correlation, kappa=0.6 means temporal correlation.
 
 ###### 5. results.summary.m is the file for summarizing the results of matlab simulation runs, including for creating the heatmaps. 
    
