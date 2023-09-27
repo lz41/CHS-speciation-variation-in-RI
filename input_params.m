@@ -4,9 +4,9 @@ function [params,fluctuation_regime,selection,output_foldername] = input_params(
 
 % temporal autocorrelation
 % kappa = [0.6]; % IN FUNCTION ARGUMENT temporal autocorrelation parameter positive = red noise, 0 = white noise, negative = blue noise
-% fecundity selection fs
-fs_w1 = 1;
-shyb = [0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,0.95,0.99];
+
+fs_w1 = 1; % fecundity selection for residents
+shyb = [0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,0.95,0.99]; % fecundity selection for hybrids
 fs1 = 1-shyb; % 1-fecundity selection coefficient for hybrids (mean)
 sigma_fs1 = [0.05,0.15,0.25,0.35,0.45]; %[0.01,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5]; % standard deviation of fecundity coefficient for hybrids
 s22 = 0.95; % fecundity selection coefficient for immigrants
