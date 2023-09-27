@@ -1,5 +1,6 @@
 ## CHS-speciation-variation-in-RI
-### matlab code for simulations
+### matlab code for simulations 
+#### created by Estuko Nonaka 2023 #####
 
 ###### 1. put all files in the working folder of matlab
    
