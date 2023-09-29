@@ -9,8 +9,8 @@ fs_w1 = 1; % fecundity selection for residents
 shyb = [0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,0.95,0.99]; % fecundity selection for hybrids
 fs1 = 1-shyb; % 1-fecundity selection coefficient for hybrids (mean)
 sigma_fs1 = [0.05,0.15,0.25,0.35,0.45]; %[0.01,0.05,0.1,0.15,0.2,0.25,0.3,0.35,0.4,0.45,0.5]; % standard deviation of fecundity coefficient for hybrids
-s22 = 0.95; % fecundity selection coefficient for immigrants
-fs_d = 1-s22; % fs_d = 1-fecundity coefficient for immigrants
+s_immi = 0.95; % fecundity selection coefficient for immigrants
+fs_d = 1-s_immi; % fs_d = 1-fecundity coefficient for immigrants
 tol_fs1 = sigma_fs1/100;
 tol_sigma_fs1 = sigma_fs1/100;
 
